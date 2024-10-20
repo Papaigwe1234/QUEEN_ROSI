@@ -1,11 +1,11 @@
 {
-  "name": "levanter",
+  "name": "QUEEN_ROSI",
   "version": "2.1.8",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name levanter",
-    "stop": "pm2 stop levanter",
+    "start": "pm2 start . --attach --name rosi",
+    "stop": "pm2 stop rosi",
     "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.33.5"
   },
   "author": "",
